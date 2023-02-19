@@ -145,13 +145,13 @@ public class Searching_and_Soring {
 
         int[] quickArray;
         quickArray = randomArray(10);
-        message.append("\nData set before quicksort:\n");
+        message.append("\nData set before quicksort sorting:\n");
 
         for(int a : quickArray)
             message.append(a).append(" ");
 
         quickSort(quickArray, 0, quickArray.length-1);
-        message.append("\n\nData set after quicksort:\n");
+        message.append("\n\nData set after quicksort sorting:\n");
 
         for(int a : quickArray)
             message.append(a).append(" ");
